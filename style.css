@@ -1,0 +1,64 @@
+
+/* I'm add background colors img more techer */
+body{
+    background-image: linear-gradient(to right, rgb(241, 236, 236) , rgb(0, 255, 242));
+}
+
+.color_text{
+    color: red;
+}
+/*This is text no color Background yellow*/
+.color_background{
+    background-color: yellow;
+    padding: 5px;
+}
+.background_img {
+    height: 150px;
+    width: auto;
+    background-image: url('InputIMG/Beltie.png');
+    margin-top: 10px;
+    background-size: cover;
+    /* i want to add for correct size img when view on phone pc and more devies */
+    background-position: center;
+    height: 100vh;               
+    background-attachment: fixed;
+
+}
+
+/* I'm add img more  techer*/
+.background_img img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 30rem;
+    object-fit: cover;
+}
+
+/*how to use with margin-top*/
+.margin_top{           
+    margin-top: 20px;
+}
+
+ /*how to use with margin-bottom*/
+.margin_bottom{              
+    margin-bottom: 30px;           
+
+}
+.margin_left_right{
+    margin: 10px;
+}
+
+.padding_text{   
+    padding: 15px;               
+    border: 1px solid gray;       /*you can use with color like #ccc* the same work*/
+}
+ /* I can custumer border more  */
+.bodered{                          
+    border:  2px solid black;
+    padding: 10px;
+
+}
+
+
+
